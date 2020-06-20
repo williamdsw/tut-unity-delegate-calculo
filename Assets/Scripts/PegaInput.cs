@@ -60,13 +60,13 @@ public class PegaInput : MonoBehaviour
         {
             if (input.x != 0)
             {
-                Debug.Log("pushed x");
+                Debug.Log("pushed x: " + input.x);
                 Soma += TesteSoma;
             }
 
             if (input.y != 0 && Soma != null)
             {
-                Debug.Log("pushed y");
+                Debug.Log("pushed y: " + input.y);
                 Soma (null, somatoria);
             }
         }
